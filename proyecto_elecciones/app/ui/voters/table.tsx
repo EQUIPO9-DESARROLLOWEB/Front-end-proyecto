@@ -40,4 +40,5 @@ export default function VoterTable() {
 }
 
 // Estructura lista
+
 // Lógica de interface terminada
