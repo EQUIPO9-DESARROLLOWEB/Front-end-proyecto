@@ -7,4 +7,4 @@ export default function Page() {
       <VoterTable />
     </main>
   );
-}
+}// Ruta de dashboard
