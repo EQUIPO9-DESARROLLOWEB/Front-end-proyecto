@@ -38,3 +38,5 @@ export default function VoterTable() {
     </div>
   );
 }
+
+// Estructura lista
