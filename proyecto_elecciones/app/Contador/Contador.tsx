@@ -12,4 +12,4 @@ export default function Contador({ titulo, descripcion }: PostProps) {
             <p className={styles.text}>{descripcion}</p>
         </div>
     );
-} // Fin del compon
+} // Fin del comp
