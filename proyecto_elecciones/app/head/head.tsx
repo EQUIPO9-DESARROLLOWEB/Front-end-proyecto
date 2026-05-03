@@ -1,4 +1,4 @@
-import styles from "./head/head.module.css"
+import styles from "./head.module.css"
 import Image from "next/image";
 
 export default function Head(){
