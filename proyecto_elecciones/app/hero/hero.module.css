@@ -1,0 +1,87 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 150px;
+    background: linear-gradient(135deg,#03245a,#003b8f);
+    color: rgb(255, 255, 255);
+}
+
+/* IZQUIERDA */
+
+.left {
+  width: 150%;
+}
+
+.left h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 0.95;
+    margin-bottom: 30px;
+}
+
+.left p {
+    font-size: 20px;
+    width: 80%;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* TARJETA */
+
+.card {
+    width: 600px;
+    background: white;
+    border-radius: 25px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: black;
+    overflow: hidden;
+    width: 100%; /* La imagen ocupa el 40% */
+    object-fit: cover;
+}
+
+.card h2 {
+    color: #003b8f;
+    font-size: 30px;
+}
+
+/* BOTONES */
+
+.card button {
+
+  padding: 22px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  font-size: 22px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.red {
+  background: #d90429;
+  color: white;
+}
+
+.blue {
+  background: #003b8f;
+  color: white;
+}
+
+.green {
+  background: #008f39;
+  color: white;
+}
+
+.white {
+  background: white;
+  border: 2px solid gray !important;
+}
