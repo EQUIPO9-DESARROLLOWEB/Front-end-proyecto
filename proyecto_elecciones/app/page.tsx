@@ -1,10 +1,11 @@
-import Image from "next/image";
 import Head from "./head/head";
-import styles from "./head/head.module.css"
+import Hero from "./hero/hero";
+
 export default function Home() {
   return (
     <>
       <Head />
+      <Hero />
     </>
   );
 }

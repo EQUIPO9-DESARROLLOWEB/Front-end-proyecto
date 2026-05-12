@@ -5,9 +5,19 @@ export default function Header() {
   return (
     <header className={styles.header}>
       
-      {/* LOGO */}
+       {/* LOGO */}
+       
+      <div className={styles.miImagen}></div>
       <div className={styles.logo}>
-        <span className={styles.icon}>🛡️</span>
+        <span className={styles.icon}>
+          <Image
+            src="/SEGOB_logo.svg"
+            alt="Logo"
+            width={50}
+            height={50}
+          />
+        </span>
+
         <div>
           <h3>Sistema Electoral Digital</h3>
           <p>Gobierno Local</p>
