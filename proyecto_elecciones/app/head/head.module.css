@@ -2,19 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
+  padding: 16px 32px;
+  position: sticky; 
+  top: 0;
+  z-index: 100;
   background: #0a2a5e;
   color: white;
 }
 
-.mi-imagen {
-  width: 500px; /* Ancho deseado */
-  height: 300px; /* Alto deseado */
-  background-image: url('https://i1-c.pinimg.com/736x/65/05/06/650506c6b80e21d09fa402faeaa9de24.jpg'); /* Ruta de la imagen */
-  background-size: cover; /* Ajusta la imagen al div */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita repetición */
-}
 
 /* LOGO */
 .logo {

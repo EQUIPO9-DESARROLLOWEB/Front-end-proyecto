@@ -6,7 +6,6 @@ export default function Hero() {
 
       {/* IZQUIERDA */}
       <div className={styles.left}>
-
         <h1>
           Sistema Electoral
           <br />
@@ -14,36 +13,36 @@ export default function Hero() {
           <br />
           Transparente
         </h1>
-
         <p>
           Modernizando la democracia local con tecnología
-          blockchain, verificación biométrica y autenticación
-          de dos factores (2FA)
+          blockchain, verificación biométrica y{" "}
+          <strong>autenticación de dos factores (2FA)</strong>
         </p>
-
       </div>
 
       {/* DERECHA */}
       <div className={styles.card}>
-
         <h2>Acceso Rápido</h2>
 
         <button className={styles.red}>
-          Registrarme como Votante
+          <span>Registrarme como Votante</span>
+          <span>👤</span>
         </button>
 
         <button className={styles.blue}>
-          Verificar Identidad (2FA)
+          <span>Verificar Identidad (2FA)</span>
+          <span>🛡️</span>
         </button>
 
         <button className={styles.green}>
-          Emitir mi Voto
+          <span>Emitir mi Voto</span>
+          <span>✅</span>
         </button>
 
         <button className={styles.white}>
-          Ver Resultados en Tiempo Real
+          <span>Ver Resultados en Tiempo Real</span>
+          <span>📊</span>
         </button>
-
       </div>
 
     </section>

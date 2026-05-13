@@ -1,23 +1,15 @@
-import styles from "./head.module.css"
+import styles from "./head.module.css";
 import Image from "next/image";
 
 export default function Header() {
   return (
     <header className={styles.header}>
-      
-       {/* LOGO */}
-       
-      <div className={styles.miImagen}></div>
+
+      {/* LOGO */}
       <div className={styles.logo}>
         <span className={styles.icon}>
-          <Image
-            src="/SEGOB_logo.svg"
-            alt="Logo"
-            width={50}
-            height={50}
-          />
+          <Image src="/SEGOB_logo.svg" alt="Logo" width={50} height={50} />
         </span>
-
         <div>
           <h3>Sistema Electoral Digital</h3>
           <p>Gobierno Local</p>
@@ -36,9 +28,7 @@ export default function Header() {
       </nav>
 
       {/* BOTÓN */}
-      <button className={styles.button}>
-        Acceso Ciudadano
-      </button>
+      <button className={styles.button}>Acceso Ciudadano</button>
 
     </header>
   );
