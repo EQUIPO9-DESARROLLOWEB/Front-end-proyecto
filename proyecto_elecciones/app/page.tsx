@@ -6,7 +6,7 @@ import Hero from "./hero/hero";
 
 export default function Home() {
   // Inicializamos como un array vacío para poder tener varias tarjetas
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
