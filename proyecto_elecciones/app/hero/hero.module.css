@@ -7,6 +7,8 @@
   background: linear-gradient(135deg, #03245a, #003b8f);
   color: white;
   gap: 60px;
+  position: relative;      /* ← agrega esto */
+  padding-bottom: 120px;   /* ← espacio para la barra */
 }
 
 /* IZQUIERDA */
@@ -25,7 +27,7 @@
   font-size: 20px;
   line-height: 1.5;
   opacity: 0.9;
-  max-width: 520px;
+  max-width: 650px;
 }
 
 /* TARJETA */
@@ -44,6 +46,7 @@
 .card h2 {
   color: #003b8f;
   font-size: 24px;
+  font-weight: 700;
   margin: 0 0 8px 0;
 }
 
@@ -73,4 +76,73 @@
   background: white;
   color: #333;
   border: 2px solid #ccc !important;
+}
+
+/* WRAPPER CONTENIDO PRINCIPAL */
+.heroContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 60px;
+}
+
+/* BARRA DE ESTADÍSTICAS */
+.statsBar {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 280px);
+  background: white;
+  border-radius: 16px 16px 0 0;
+  padding: 24px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 -4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.statIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.iconBlue  { background: #e8eef8; }
+.iconRed   { background: #fde8eb; }
+.iconGreen { background: #e6f4ec; }
+
+.statNumber {
+  font-size: 32px;
+  font-weight: 800;
+  display: block;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.statNumber.blue  { color: #003b8f; }
+.statNumber.red   { color: #d90429; }
+.statNumber.green { color: #008f39; }
+
+.statLabel {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+}
+
+.statDivider {
+  width: 1px;
+  height: 50px;
+  background: #e5e5e5;
 }
