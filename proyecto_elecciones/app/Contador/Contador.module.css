@@ -1,0 +1,93 @@
+.card {
+    background-color: #ffffff; /* Blanco puro para que resalte */
+    border-radius: 24px;
+    padding: 30px;
+    width: 320px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f1f5f9; /* Borde muy suave */
+    font-family: 'Inter', sans-serif; /* O sans-serif estándar */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.iconBox {
+    background-color: #e2e8f0;
+    padding: 10px;
+    border-radius: 10px;
+    color: #1e3a8a;
+}
+
+.statusBadge {
+    background-color: #dcfce7;
+    color: #16a34a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.infoPrincipal {
+    margin-bottom: 25px;
+}
+
+.localidadTitle {
+    font-size: 20px;
+    color: #1e293b;
+    margin: 0;
+    font-weight: 700;
+}
+
+.zonaText {
+    font-size: 14px;
+    color: #94a3b8;
+    margin: 4px 0 0 0;
+}
+
+.statsGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.statRow {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.statLabel {
+    color: #64748b;
+}
+
+.statValue {
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.statValueBlue {
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.progressContainer {
+    width: 100%;
+}
+
+.progressBar {
+    height: 8px;
+    background-color: #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progressFill {
+    height: 100%;
+    background-color: #1e3a8a;
+    border-radius: 10px;
+}
