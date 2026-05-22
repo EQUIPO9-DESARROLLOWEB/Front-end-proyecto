@@ -27,10 +27,11 @@ export default function Home() {
 
   return (
     <>
-      <Resultados />
 
       <Head />
       <Hero />
+
+      <Resultados />
 
       {/* Sección del Dashboard */}
       <main className="bg-gray-50 py-16 px-4">
