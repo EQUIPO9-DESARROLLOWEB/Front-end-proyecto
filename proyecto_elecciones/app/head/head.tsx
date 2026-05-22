@@ -35,7 +35,7 @@ export default function Head() {
  
       {/* NAV */}
       <nav className={styles.nav}>
-        <a href="#">Inicio</a>
+        <a href="#hero">Inicio</a>
         <a href="#">Registro Electoral</a>
         <a href="#">Emitir Voto</a>
         <a href="#">Resultados en Vivo</a>
