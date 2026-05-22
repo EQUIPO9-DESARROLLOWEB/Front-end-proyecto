@@ -1,8 +1,8 @@
 import styles from "./head.module.css";
  
-export default function Head() {
+export default function Header() {
   return (
-    <head className={styles.head}>
+    <header className={styles.header}>
  
       {/* LOGO */}
       <div className={styles.logo}>
@@ -38,7 +38,7 @@ export default function Head() {
         <a href="#hero">Inicio</a>
         <a href="#">Registro Electoral</a>
         <a href="#">Emitir Voto</a>
-        <a href="#">Resultados en Vivo</a>
+        <a href="#Contador">Resultados en Vivo</a>
         <a href="#">Auditoría</a>
         <a href="#">Seguridad</a>
         <a href="#">Contacto</a>
@@ -47,7 +47,7 @@ export default function Head() {
       {/* BOTÓN */}
       <button className={styles.button}>Acceso Ciudadano</button>
  
-    </head>
+    </header>
   );
 }
 
