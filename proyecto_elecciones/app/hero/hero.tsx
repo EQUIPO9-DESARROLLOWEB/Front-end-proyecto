@@ -84,7 +84,7 @@ export default function Hero() {
   }, []);
  
   return (
-    <section className={styles.hero}>
+     <section id="hero" className={styles.hero}>
  
       {/* Canvas de red animada */}
       <canvas ref={canvasRef} className={styles.canvas} />
