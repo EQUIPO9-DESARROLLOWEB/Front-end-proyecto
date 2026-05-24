@@ -21,12 +21,17 @@ export default function Home() {
 
   return (
     <>
-      <Head />
-      <Hero />
+ <Head />
 
-      <Resultados />
+<section id="inicio">
+  <Hero />
+</section>
 
-      <main className="bg-gray-50 py-16 px-4">
+<section id="resultados">
+  <Resultados />
+</section>
+
+<main id="contador" className="bg-gray-50 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-extrabold text-blue-900 mb-2">

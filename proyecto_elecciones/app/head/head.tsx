@@ -17,16 +17,15 @@ export default function Header() {
       </div>
 
       {/* NAV */}
-      <nav className={styles.nav}>
-        <a href="#">Inicio</a>
-        <a href="#">Registro Electoral</a>
-        <a href="#">Emitir Voto</a>
-        <a href="#">Resultados en Vivo</a>
-        <a href="#">Auditoría</a>
-        <a href="#">Seguridad</a>
-        <a href="#">Contacto</a>
-      </nav>
-
+<nav className={styles.nav}>
+  <a href="#inicio">Inicio</a>
+  <a href="#">Registro Electoral</a>
+  <a href="#">Emitir Voto</a>
+  <a href="#resultados">Resultados en Vivo</a>
+  <a href="#">Auditoría</a>
+  <a href="#">Seguridad</a>
+  <a href="#">Contacto</a>
+</nav>
       {/* BOTÓN */}
       <button className={styles.button}>Acceso Ciudadano</button>
 
