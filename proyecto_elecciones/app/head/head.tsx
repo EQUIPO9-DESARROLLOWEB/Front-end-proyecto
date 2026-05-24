@@ -21,7 +21,10 @@ export default function Header() {
         <a href="#">Inicio</a>
         <a href="#">Registro Electoral</a>
         <a href="#">Emitir Voto</a>
-        <a href="#">Resultados en Vivo</a>
+        
+        {/* 🛠️ ENLACE CORREGIDO: Cambiamos href="#" por href="#tucomponente" */}
+        <a href="#tucomponente">Resultados en Vivo</a>
+        
         <a href="#">Auditoría</a>
         <a href="#">Seguridad</a>
         <a href="#">Contacto</a>
@@ -33,4 +36,3 @@ export default function Header() {
     </header>
   );
 }
-

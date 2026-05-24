@@ -25,8 +25,9 @@ export default function Home() {
       <Head />
       <Hero />
       
-      {/* Sección del Dashboard */}
-      <main className="bg-gray-50 py-16 px-4">
+      {/* 🛠️ SECCIÓN MODIFICADA: Agregamos el ID que pidió tu equipo. 
+          Dejamos tus clases de Tailwind intactas para que no se mueva nada de tu diseño. */}
+      <main id="tucomponente" className="bg-gray-50 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-extrabold text-blue-900 mb-2">
