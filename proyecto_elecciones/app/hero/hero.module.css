@@ -1,0 +1,76 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 140px;
+  background: linear-gradient(135deg, #03245a, #003b8f);
+  color: white;
+  gap: 60px;
+}
+
+/* IZQUIERDA */
+.left {
+  flex: 1;
+}
+
+.left h1 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 0.95;
+  margin-bottom: 30px;
+}
+
+.left p {
+  font-size: 20px;
+  line-height: 1.5;
+  opacity: 0.9;
+  max-width: 520px;
+}
+
+/* TARJETA */
+.card {
+  width: 480px;
+  flex-shrink: 0;
+  background: white;
+  border-radius: 25px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;   /* ← FIX CLAVE */
+  gap: 16px;
+  color: black;
+}
+
+.card h2 {
+  color: #003b8f;
+  font-size: 24px;
+  margin: 0 0 8px 0;
+}
+
+/* BOTONES */
+.card button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;          /* ← sin px */
+  cursor: pointer;
+  width: 100%;
+  transition: opacity 0.2s;
+}
+
+.card button:hover {
+  opacity: 0.85;
+}
+
+.red   { background: #d90429; color: white; }
+.blue  { background: #003b8f; color: white; }
+.green { background: #008f39; color: white; }
+.white {
+  background: white;
+  color: #333;
+  border: 2px solid #ccc !important;
+}
