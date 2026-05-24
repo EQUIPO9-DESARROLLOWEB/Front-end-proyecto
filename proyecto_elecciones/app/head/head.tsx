@@ -34,6 +34,17 @@ export default function Header() {
       </div>
  
       {/* NAV */}
+ feature/LuisFernandoResultados
+<nav className={styles.nav}>
+  <a href="#inicio">Inicio</a>
+  <a href="#">Registro Electoral</a>
+  <a href="#">Emitir Voto</a>
+  <a href="#resultados">Resultados en Vivo</a>
+  <a href="#">Auditoría</a>
+  <a href="#">Seguridad</a>
+  <a href="#">Contacto</a>
+</nav>
+
       <nav className={styles.nav}>
         <a href="#hero">Inicio</a>
         <a href="#">Registro Electoral</a>
@@ -44,6 +55,7 @@ export default function Header() {
         <a href="#">Contacto</a>
       </nav>
  
+ main
       {/* BOTÓN */}
       <button className={styles.button}>Acceso Ciudadano</button>
  
